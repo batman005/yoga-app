@@ -1,6 +1,6 @@
 # yoga-app
 
-##yoga-client(front-end)
+#Yoga-client(front-end)
 
 I have implemented UI using react-bootstrap and added notification functionality using react-toastify. I have also implemented form validation using regular expressions, including a validation to ensure that the age of the student must be between 18 and 65, all the fields have been filled, and the person must pay the 500/- rs fee for the month and select a particular batch for classes. I have managed the form fields using the useState hook in React and used axios to send HTTP requests.
 
@@ -32,6 +32,7 @@ If email or mobileno  already exist in database then it show a popup error
 
 Update batch of a person by email id
 ![updateform](https://user-images.githubusercontent.com/51878340/208254955-ca2ecb7a-1250-49ef-a4bc-f47817ad7453.png)
+
 In the API, I have implemented a condition that checks if the CURRENT_DATE is less than the expiration date of the student's enrollment. If this is the case, a popup message is displayed indicating that the student must stay in their current batch for the current month. If the CURRENT_DATE is greater than the expiration date, the student's batch is updated. This allows the API to enforce the rule that a student must complete their current enrollment period before switching to a new batch.
 
 ## Available Scripts
@@ -64,17 +65,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
+#BACKEND(sever)
 # Yoga-Server
 This is the server-side component of a Yoga application. It is a RESTful API built using Node.js and Express. The API enables clients to perform various operations such as creating, reading, updating, and deleting Yoga classes and appointments.
 
