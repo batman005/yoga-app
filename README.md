@@ -73,8 +73,9 @@ This is the server-side component of a Yoga application. It is a RESTful API bui
 Prerequisites
 Before you begin, make sure you have the following installed on your local machine:
 
--Node.js
--npm
+- Node.js
+- npm
+- PostgreSQL
 
 Installation
 Clone the repository to your local machine:
