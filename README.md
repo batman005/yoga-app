@@ -17,17 +17,21 @@ I have Dockerized the front-end(client-side) by creating a Docker container for 
 
 Shots:
 
-registerform UI
++ registerform UI
 
 ![registerform](https://user-images.githubusercontent.com/51878340/208254883-87e00fa6-09ac-4d3d-94a3-c73b4efc4191.png)
 
-CompletePayment and Succesfull registraion UI 
+
++ CompletePayment and Succesfull registraion UI 
+
 ![completepaymentandregistered](https://user-images.githubusercontent.com/51878340/208254902-de8bce4a-d501-449c-8db2-3bc15266b0bc.png)
 
-If email or mobileno  already exist in database then it show a popup error 
++ If email or mobileno  already exist in database then it show a popup error 
+
 ![emailnumberexist](https://user-images.githubusercontent.com/51878340/208254919-55a93205-2c02-40ac-8a0d-ca014f174d09.png)
 
-Update batch of a person by email id
++ Update batch of a person by email id
+
 ![updateform](https://user-images.githubusercontent.com/51878340/208254955-ca2ecb7a-1250-49ef-a4bc-f47817ad7453.png)
 
 In the API, I have implemented a condition that checks if the CURRENT_DATE is less than the expiration date of the student's enrollment. If this is the case, a popup message is displayed indicating that the student must stay in their current batch for the current month. If the CURRENT_DATE is greater than the expiration date, the student's batch is updated. This allows the API to enforce the rule that a student must complete their current enrollment period before switching to a new batch.
