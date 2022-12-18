@@ -16,7 +16,9 @@ I have Dockerized the front-end(client-side) by creating a Docker container for 
 
 
 Shots:
+
 registerform UI
+
 ![registerform](https://user-images.githubusercontent.com/51878340/208254883-87e00fa6-09ac-4d3d-94a3-c73b4efc4191.png)
 
 CompletePayment and Succesfull registraion UI 
